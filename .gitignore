@@ -80,3 +80,8 @@ lib/
 # React Native Codegen
 ios/generated
 android/generated
+
+# 개인 프로젝트 내용 만약 타 기기에서 빌드 안 될 경우, 이 부분 무시 처리 제거해보자
+Gemfile.lock
+.xcode.env.local
+Podfile.lock
